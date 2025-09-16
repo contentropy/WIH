@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Worm in Hat - Random Hat Generator</title>
+    <title>worm in a hat - random hat generator</title>
+    <meta name="description" content="give a cartoon worm random hats! click the button to see what hat our worm gets next. fun interactive website with 13 different hat styles.">
+    <meta name="keywords" content="worm, hat, random, generator, cartoon, fun, interactive, game">
+    <meta property="og:title" content="worm in a hat - random hat generator">
+    <meta property="og:description" content="give a cartoon worm random hats! click the button to see what hat our worm gets next. fun interactive website with 13 different hat styles.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="worm in a hat - random hat generator">
+    <meta name="twitter:description" content="give a cartoon worm random hats! click the button to see what hat our worm gets next. fun interactive website with 13 different hat styles.">
     <style>
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -317,17 +325,17 @@
 <body>
     <div class="stars" id="stars"></div>
     <div class="container">
-        <h1>🐛 Worm in Hat 🎩</h1>
+        <h1>🐛 worm in a hat 🎩</h1>
         
         <div class="worm-container">
             <img src="WormInHat2.png" alt="Cartoon Worm" class="worm" id="worm">
             <img src="TopHat.png" alt="Hat" class="hat hidden" id="current-hat">
         </div>
         
-        <div class="hat-name" id="hat-name">Click the button to give the worm a random hat!</div>
+        <div class="hat-name" id="hat-name">click the button to give the worm a random hat!</div>
         
         <button class="random-hat-btn" onclick="applyRandomHat()">
-            🎲 Random Hat 🎩
+            🎲 random hat 🎩
         </button>
     </div>
 
@@ -335,74 +343,74 @@
         // Define different hat variations using the new hat images
         const hats = [
             {
-                name: "No Hat",
+                name: "no hat",
                 image: null,
-                description: "Our worm is going au naturel today!"
+                description: "our worm is going au naturel today!"
             },
             {
-                name: "Astronaut Hat",
+                name: "astronaut hat",
                 image: "AstronautHat.png",
-                description: "To infinity and beyond! 🚀"
+                description: "to infinity and beyond! 🚀"
             },
             {
-                name: "Baseball Hat",
+                name: "baseball hat",
                 image: "BaseballHat.png",
-                description: "Ready for the game! ⚾"
+                description: "ready for the game! ⚾"
             },
             {
-                name: "Construction Hat",
+                name: "construction hat",
                 image: "ConstructionHat.png",
-                description: "Safety first! Hard hat worm on duty! 🦺"
+                description: "safety first! hard hat worm on duty! 🦺"
             },
             {
-                name: "Cowboy Hat",
+                name: "cowboy hat",
                 image: "CowboyHat.png",
-                description: "Howdy partner! 🤠"
+                description: "howdy partner! 🤠"
             },
             {
-                name: "Crown",
+                name: "crown",
                 image: "CrownHat.png",
-                description: "All hail the royal worm! 👑"
+                description: "all hail the royal worm! 👑"
             },
             {
-                name: "Green Beret",
+                name: "green beret",
                 image: "GreenBeretHat.png",
-                description: "Mission accomplished! 🪖"
+                description: "mission accomplished! 🪖"
             },
             {
-                name: "Party Hat",
+                name: "party hat",
                 image: "PartyHat.png",
-                description: "Time to party! 🎉"
+                description: "time to party! 🎉"
             },
             {
-                name: "Pirate Hat",
+                name: "pirate hat",
                 image: "PirateHat.png",
-                description: "Ahoy matey! 🏴‍☠️"
+                description: "ahoy matey! 🏴‍☠️"
             },
             {
-                name: "Sailor Hat",
+                name: "sailor hat",
                 image: "SailorHat.png",
-                description: "Anchors away! ⚓"
+                description: "anchors away! ⚓"
             },
             {
-                name: "Sun Hat",
+                name: "sun hat",
                 image: "SunHat.png",
-                description: "Sunny day protection! ☀️"
+                description: "sunny day protection! ☀️"
             },
             {
-                name: "Top Hat",
+                name: "top hat",
                 image: "TopHat.png",
-                description: "A dapper top hat for our distinguished worm!"
+                description: "a dapper top hat for our distinguished worm!"
             },
             {
-                name: "Viking Hat",
+                name: "viking hat",
                 image: "VikingHat.png",
-                description: "Valhalla awaits! ⚔️"
+                description: "valhalla awaits! ⚔️"
             },
             {
-                name: "Wizard Hat",
+                name: "wizard hat",
                 image: "WizardHat.png",
-                description: "Abracadabra! Our worm is now magical! ✨"
+                description: "abracadabra! our worm is now magical! ✨"
             }
         ];
 
